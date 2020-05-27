@@ -17,7 +17,7 @@
   "gnetId": 3351,
   "graphTooltip": 0,
   "id": 4,
-  "iteration": 1590329650709,
+  "iteration": 1590580390468,
   "links": [],
   "panels": [
     {
@@ -762,7 +762,7 @@
       "lines": true,
       "linewidth": 4,
       "links": [],
-      "nullPointMode": "connected",
+      "nullPointMode": "null as zero",
       "percentage": false,
       "pointradius": 5,
       "points": false,
@@ -1523,7 +1523,7 @@
       "lines": true,
       "linewidth": 2,
       "links": [],
-      "nullPointMode": "null as zero",
+      "nullPointMode": "connected",
       "percentage": false,
       "pointradius": 5,
       "points": false,
@@ -1619,7 +1619,7 @@
       }
     }
   ],
-  "refresh": "5s",
+  "refresh": false,
   "schemaVersion": 16,
   "style": "dark",
   "tags": [],
@@ -1628,9 +1628,9 @@
       {
         "allValue": null,
         "current": {
-          "selected": true,
-          "text": "Grafana",
-          "value": "Grafana"
+          "tags": [],
+          "text": "application_name",
+          "value": "application_name"
         },
         "datasource": "Jmeter",
         "hide": 0,
@@ -1653,6 +1653,8 @@
       {
         "allValue": null,
         "current": {
+          "selected": true,
+          "tags": [],
           "text": "1s",
           "value": "1s"
         },
@@ -1675,8 +1677,8 @@
     ]
   },
   "time": {
-    "from": "2020-05-24T12:07:20.990Z",
-    "to": "2020-05-24T14:07:20.990Z"
+    "from": "2020-05-27T11:49:37.914Z",
+    "to": "2020-05-27T11:50:34.645Z"
   },
   "timepicker": {
     "refresh_intervals": [
@@ -1706,5 +1708,5 @@
   "timezone": "browser",
   "title": "JMeter Dashboard",
   "uid": "oI-sMqlmz",
-  "version": 62
+  "version": 73
 }
